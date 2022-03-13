@@ -1,0 +1,27 @@
+{
+    "credentials": {
+        "tenantName": "ysmartoffice.onmicrosoft.com",
+        "clientID": "e1a5a78e-4f19-423c-9058-3ba53a2f26fd"
+    },
+    "policies": {
+        "policyName": "B2C_1_signupsignin1"
+    },
+    "metadata": {
+        "b2cDomain": "ysmartoffice.b2clogin.com",
+        "authority": "login.microsoftonline.com",
+        "discovery": ".well-known/openid-configuration",
+        "version": "v2.0"
+    },
+    "settings": {
+        "isB2C": true,
+        "validateIssuer": false,
+        "passReqToCallback": false,
+        "loggingLevel": "info"
+    },
+    "protectedRoutes": {
+        "hello": {
+            "endpoint": "/hello",
+            "scopes": ["demo.read"]
+        }
+    }
+}
