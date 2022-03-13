@@ -92,5 +92,10 @@ export const protectedResources = {
  * https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#openid-connect-scopes
  */
  export const loginRequest = {
-    scopes: [...protectedResources.apiHello.scopes]
+    scopes: ["openid",...protectedResources.apiHello.scopes]
 };
+
+const tokenRequest = {
+    scopes: [...protectedResources.apiHello.scopes],  // e.g. ["https://fabrikamb2c.onmicrosoft.com/helloapi/demo.read"]
+    forceRefresh: false // Set this to "true" to skip a cached token and go to the server to get a new token
+  };
