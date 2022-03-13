@@ -80,8 +80,8 @@ export const msalConfig = {
  */
 export const protectedResources = {
     apiHello: {
-        endpoint: "http://localhost:5000/hello",
-        scopes: ["https://ySmartOffice.onmicrosoft.com/e1a5a78e-4f19-423c-9058-3ba53a2f26fd/demo.read"], // e.g. api://xxxxxx/access_as_user
+        endpoint: "https://ysmartofficeapi.azurewebsites.net/hello",
+        scopes: ["https://ySmartOffice.onmicrosoft.com/tasks-api/tasks.read"], // e.g. api://xxxxxx/access_as_user
     },
 }
 
