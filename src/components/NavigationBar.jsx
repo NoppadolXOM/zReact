@@ -1,6 +1,10 @@
 import { AuthenticatedTemplate, UnauthenticatedTemplate, useMsal } from "@azure/msal-react";
 
-import { Nav, Navbar, Button, Dropdown, DropdownButton} from "react-bootstrap";
+import Nav from "react-bootstrap/Nav"
+import Navbar from "react-bootstrap/Navbar"
+import Button from "react-bootstrap/Button";
+import DropdownButton from "react-bootstrap/DropdownButton";
+import Dropdown from "react-bootstrap/esm/Dropdown";
 
 import { loginRequest, b2cPolicies } from "../authConfig";
 
@@ -20,9 +24,12 @@ export const NavigationBar = () => {
     return (
         <>
             <Navbar bg="primary" variant="dark">
-                <a className="navbar-brand" href="/">Microsoft identity platform</a>
+                <a className="navbar-brand" href="/">Smart Office</a>
                 <AuthenticatedTemplate>
-                    <Nav.Link as={Button} href="/hello">HelloAPI</Nav.Link>
+					<Nav.Link as={Button} href="/hrh?floor=3">HRH 3</Nav.Link>
+                    <Nav.Link as={Button} href="/hrh?floor=11">HRH 11</Nav.Link>
+                    <Nav.Link as={Button} href="/hrh?floor=12">HRH 12</Nav.Link>
+                    
                     <div className="ml-auto">
                         <Button variant="info" onClick={() => instance.loginPopup(b2cPolicies.authorities.editProfile)} className="ml-auto">Edit Profile</Button>
                         <DropdownButton variant="warning" className="ml-auto" drop="left" title="Sign Out">
