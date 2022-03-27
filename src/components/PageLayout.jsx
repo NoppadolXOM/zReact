@@ -16,7 +16,7 @@ export const PageLayout = (props) => {
             <br />
             <AuthenticatedTemplate>
                 <footer>
-                    <center>Smart Office
+                    <center>Smart Office ©2022
                     </center>
                 </footer>
             </AuthenticatedTemplate>

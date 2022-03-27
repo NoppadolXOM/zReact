@@ -1,0 +1,92 @@
+.Buildings {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Welcome {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    font-weight: 650;
+    font-family: 'EMprint-Semibold';
+}
+
+.text {
+    text-align: center;
+    padding: 10px;
+    font-family: 'EMprint-Regular';
+}
+
+.HRHWrap {
+    
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    height: 220px;
+    margin-left: 100px;
+    font-family: 'EMprint-Semibold';
+}
+
+.QHLWrap {
+  
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    height: 220px;
+    font-family: 'EMprint-Semibold';
+}
+
+.VTTWrap {
+   
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    height: 220px;
+    margin-right: 100px;
+    font-family: 'EMprint-Semibold';
+
+}
+
+.name {
+    color: #111122;
+}
+
+.floors {
+    padding-top: 5px;
+}
+
+.HRH {
+    text-decoration: none;
+    font-weight: 550;
+    color: #0c69b0;
+    font-size: large;
+
+}
+
+.HRH:hover {
+    color:red;
+}
+
+.QHL {
+    text-decoration: none;
+    font-weight: 550;
+    font-size: large;
+    color: #0c69b0;
+}
+
+.QHL:hover {
+    color:red;
+}
+
+.VTT {
+    text-decoration: none;
+    font-weight: 550;
+    color: #0c69b0;
+    font-size: large;
+}
+
+.VTT:hover {
+    color:red;
+}
