@@ -4,8 +4,8 @@ import { MsalProvider } from "@azure/msal-react";
 
 import { b2cPolicies } from "./authConfig";
 import { PageLayout } from "./components/PageLayout";
+import { WelcomePage } from "./pages/Welcome";
 import { Hello } from "./pages/Hello";
-import Home from './Home'
 import { FLOOR } from "./pages/Floor";
 
 import "./styles/App.css";
@@ -14,12 +14,14 @@ const Pages = () => {
 
   return (
     <Switch>
-      <Route path='/' exact component={Home} /> 
       <Route path="/hello">
         <Hello />
       </Route>
       <Route path='/hrh'>
         <FLOOR />
+      </Route>
+      <Route path='/'>
+        <WelcomePage />
       </Route> 
     </Switch>
   )
