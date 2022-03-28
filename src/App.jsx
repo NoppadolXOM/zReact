@@ -17,7 +17,7 @@ const Pages = () => {
       <Route path="/hello">
         <Hello />
       </Route>
-      <Route path='/hrh'>
+      <Route path='/huddles'>
         <FLOOR />
       </Route>
       <Route path='/'>

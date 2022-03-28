@@ -26,9 +26,9 @@ export const NavigationBar = () => {
             <Navbar bg="primary" variant="dark">
                 <a className="navbar-brand" href="/">Smart Office</a>
                 <AuthenticatedTemplate>
-					<Nav.Link as={Button} href="/hrh?floor=3">HRH 3</Nav.Link>
-                    <Nav.Link as={Button} href="/hrh?floor=11">HRH 11</Nav.Link>
-                    <Nav.Link as={Button} href="/hrh?floor=12">HRH 12</Nav.Link>
+					<Nav.Link as={Button} href="/huddles?floor=HRH3">HRH 3</Nav.Link>
+                    <Nav.Link as={Button} href="/huddles?floor=HRH11">HRH 11</Nav.Link>
+                    <Nav.Link as={Button} href="/huddles?floor=HRH12">HRH 12</Nav.Link>
                     
                     <div className="ml-auto">
                         <Button variant="info" onClick={() => instance.loginPopup(b2cPolicies.authorities.editProfile)} className="ml-auto">Edit Profile</Button>

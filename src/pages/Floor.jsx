@@ -50,9 +50,9 @@ const FloorContent = () => {
 
     function getFloorTag() {
       switch(floorParam){
-        case "3": return <ThirdFloor/>; 
-        case "11": return <EleventhFloor/>;
-        case "12": return <TwelvethFloor/>;
+        case "HRH3": return <ThirdFloor/>; 
+        case "HRH11": return <EleventhFloor/>;
+        case "HRH12": return <TwelvethFloor/>;
         default: return null;
       }
     }

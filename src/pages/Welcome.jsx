@@ -21,7 +21,7 @@ export const WelcomePage = () => {
                     <div className="HRHWrap">
                         <h2 className="name">Harindhorn building</h2>
                         <div className="floors">
-                            <Link className="HRH" to="/hrh?floor=3">3<sup>rd</sup> Floor</Link>
+                            <Link className="HRH" to="/huddles?floor=HRH3">3<sup>rd</sup> Floor</Link>
                         </div>
                         <div className="floors">
                             <Link className="HRH" to="/">6<sup>th</sup> Floor</Link>
@@ -30,10 +30,10 @@ export const WelcomePage = () => {
                             <Link className="HRH" to="/">8<sup>th</sup> Floor</Link>
                         </div>
                         <div className="floors">
-                            <Link className="HRH" to="/hrh?floor=11">11<sup>th</sup> Floor</Link>
+                            <Link className="HRH" to="/huddles?floor=HRH11">11<sup>th</sup> Floor</Link>
                         </div>
                         <div className="floors">
-                            <Link className="HRH" to="/hrh?floor=12">12<sup>th</sup> Floor</Link>
+                            <Link className="HRH" to="/huddles?floor=HRH12">12<sup>th</sup> Floor</Link>
                         </div>
 
                     </div>
